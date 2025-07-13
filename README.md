@@ -2,6 +2,8 @@
 
 A modern and user-friendly home stock management application. You can easily track stock quantities of products in your home, organize them by categories, and store data securely.
 
+![Home Stock Manager](screenshot.png)
+
 ## ✨ Features
 
 ### 🎯 Core Features
@@ -137,7 +139,7 @@ CFLAGS = -Wall -Wextra -std=c99 -D_WIN32_WINNT=0x0600
 
 ### Dependencies
 ```makefile
-LDFLAGS = -luser32 -lgdi32 -lcomctl32 -lcomdlg32 
+LDFLAGS = -mwindows -luser32 -lgdi32 -lcomctl32 -lcomdlg32 
           -lkernel32 -lmsimg32 -luxtheme
 ```
 

@@ -4,7 +4,7 @@
 CC = gcc
 WINDRES = windres
 CFLAGS = -Wall -Wextra -std=c99 -D_WIN32_WINNT=0x0600 -DUNICODE -D_UNICODE -finput-charset=UTF-8 -fexec-charset=UTF-8
-LDFLAGS = -luser32 -lgdi32 -lcomctl32 -lcomdlg32 -lkernel32 -lmsimg32 -luxtheme
+LDFLAGS = -mwindows -luser32 -lgdi32 -lcomctl32 -lcomdlg32 -lkernel32 -lmsimg32 -luxtheme
 
 # Files
 SOURCES = main.c stock.c theme.c
