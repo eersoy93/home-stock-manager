@@ -1,6 +1,6 @@
 # Home Stock Manager 🏠📦
 
-A modern and user-friendly home stock management application. You can easily track stock quantities of products in your home, organize them by categories, and store data securely.
+A modern and user-friendly home stock management application. You can easily track stock quantities of products in your home, organize them by categories, and store data securely. Written with Cursor AI.
 
 ![Home Stock Manager](screenshot.png)
 
