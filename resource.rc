@@ -1,0 +1,21 @@
+#include <windows.h>
+#include "resource.h"
+
+// Modern Dialog resource with Unicode support
+IDD_ADD_ITEM DIALOGEX 0, 0, 400, 280
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION L"Product Manager"
+FONT 9, L"Segoe UI"
+BEGIN
+    LTEXT           L"Product Name:", IDC_STATIC_NAME, 20, 20, 100, 16
+    EDITTEXT        IDC_EDIT_NAME, 20, 40, 360, 24, ES_AUTOHSCROLL
+    
+    LTEXT           L"Category:", IDC_STATIC_CATEGORY, 20, 80, 100, 16
+    EDITTEXT        IDC_EDIT_CATEGORY, 20, 100, 360, 24, ES_AUTOHSCROLL
+    
+    LTEXT           L"Quantity:", IDC_STATIC_STOCK, 20, 140, 100, 16
+    EDITTEXT        IDC_EDIT_STOCK, 20, 160, 150, 24, ES_AUTOHSCROLL
+    
+    DEFPUSHBUTTON   L"OK", IDOK, 220, 220, 80, 35
+    PUSHBUTTON      L"Cancel", IDCANCEL, 310, 220, 80, 35
+END
