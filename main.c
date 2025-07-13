@@ -101,7 +101,7 @@ void CreateMainWindow(void)
     hMainWindow = CreateWindowEx(
         0,
         L"StockManagerWindow",
-        L"Home Stock Manager - Modern Theme",
+        L"Home Stock Manager - Copyright (c) 2025 Erdem Ersoy (eersoy93)",
         WS_OVERLAPPEDWINDOW,
         CW_USEDEFAULT, CW_USEDEFAULT,
         900, 650,
